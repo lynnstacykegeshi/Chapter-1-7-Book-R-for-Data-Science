@@ -1,7 +1,7 @@
 ---
 title: "Assignment 1 - Chapter 1-7 Summary LK"
 author: "Lynnstacy Kegeshi"
-date: "2024-10-27"
+date: "2024-10-23"
 output: 
         pdf_document: 
           toc: yes
@@ -23,7 +23,7 @@ library(tidyverse)
 library(dplyr)
 library(modelr)
 ```
-# Chapter 1
+# Chapter 1: Data Visualisation with ggplot2
 The chapter focuses on ggplot2, part of the tidyverse collection of R packages.To get started on this, we shall load our dataset to R Studio and visualize it. 
 
 
@@ -77,7 +77,7 @@ bargraph + coord_flip()
 ```
 
 
-# Chapter 2
+# Chapter 2: Workflow - Basics
 This chapter explore the basics of running R code and explored the most helpful features of R studio.
 
 - R can be used as a calculator for basic arithmetics.
@@ -93,7 +93,7 @@ sin(pi / 2)
 
 - The continuation character + indicates that R is waiting for more input. 
 
-# Chapter 3
+# Chapter 3: Data	Transformation	with dplyr
 
 In Chapter 3 of R for Data Science, the focus is on using the dplyr package, a core member of the tidyverse, for data manipulation.
 
@@ -182,7 +182,7 @@ ordered_data <- purchaseprediction %>%
 head(ordered_data, 5)
 ```
 
-# Chapter 4
+# Chapter 4: Workflow - Scripts
 Chapter 4 explores running the code on the R-Script rather than the console.
 
 *Key Take Aways*
@@ -191,7 +191,7 @@ Chapter 4 explores running the code on the R-Script rather than the console.
 - Avoid including install.packages() or setwd() in shared scripts to prevent changing settings on someone else’s computer.
 - Hovering over the cross when an error is identified reveals the problem, helping to quickly identify and fix errors.
 
-# Chapter 5
+# Chapter 5: Exploratory	Data	Analysis
 This chapter focuses on using visualisation and exploratory data analysis. It combine the knowledge of dplyr and ggplot.
 
 Exploratory Data Analysis is driven by questions that guide the investigation. 
@@ -269,7 +269,7 @@ ggplot(data = prediction) +
 
 ```
 
-# Chapter 6
+# Chapter 6: Workflow - Projects
 
 This chapter addresses practical aspects of managing R projects, including saving work, organizing analyses, and handling data files. It emphasizes the importance of considering R scripts as the "real" record of analysis and using RStudio projects to manage work effectively.
 
@@ -283,7 +283,7 @@ This chapter addresses practical aspects of managing R projects, including savin
 
 - Save figures and results using R code, not manually, to ensure reproducibility.
 
-# Chapter 7
+# Chapter 7: Tibbles	with	tibble
 This chapter explores tibbles. Tibbles are part of the tidyverse and offer several advantages over traditional data frames, particularly in terms of printing and subsetting.
 
 To create a tibble from the existing purchaseprediction data frame, the as_tibble() function was employed.
